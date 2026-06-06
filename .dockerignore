@@ -1,1 +1,34 @@
+# 版本控制
+.git
+.gitignore
+.github
+
+# 依赖缓存
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# 环境文件
+.env
+.env.local
+.env.*
+
+# 系统/编辑器文件
+.DS_Store
+*.swp
+*.swo
+.vscode
+.idea
+
+# 构建产物、日志
+dist
+build
+logs
+tmp
+temp
+
+# 容器自身缓存/无关目录（按需保留）
+.dockerignore
+Dockerfile
 
